@@ -22,10 +22,10 @@ function chunkArray(arr, n) {
   return chunked_arr;
 }
 
-/*
-Solution 2: slice and conquer
-Here I use the slice function to get the complete chunk in each iteration, until there are no more elements left in the array.
-*/
+/**
+ * Solution 2: slice and conquer
+ * Here I use the slice function to get the complete chunk in each iteration, until there are no more elements left in the array.
+ */
 function alsoChunkArray(arr, n) {
   let size = arr.length;
   let chunked_arr = [];
