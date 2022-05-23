@@ -1,12 +1,9 @@
-/*
-Description:
-Find the most repeated character in any given string.
-
-Solution:
-I create an object where the character is the key and the frequency is the value. I also keep track of the max number of repetitions and the most repeated 
-character in to separate variables. After comparing in each iteration, and updating when required, I return the most repeated character with the corresponding
-number repetitions. 
-*/
+/**
+ * Solution:
+ * I create an object where the character is the key and the frequency is the value. I also keep track of the max number of repetitions and the most repeated
+ * character in to separate variables. After comparing in each iteration, and updating when required, I return the most repeated character with the corresponding
+ * number repetitions.
+ */
 
 function mostRepeatedChar(str) {
   let chars_in_str = {};

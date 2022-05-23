@@ -1,13 +1,8 @@
-/*
-Source: [LeetCode](https://leetcode.com/problems/count-primes/)
-
-Description:
-Given an integer n, return the number of prime numbers that are strictly less than n.
-
-Solution:
-I keep track of the prime numbers up to n in an array. To check if the number is prime, I verify that is not divisible by any other prime in the array and only
-check divisibility to the squared root of the current number. At the end, the length of the array of primes is returned.
-*/
+/**
+ * Solution:
+ * I keep track of the prime numbers up to n in an array. To check if the number is prime, I verify that is not divisible by any other prime in the array and only
+ * check divisibility to the squared root of the current number. At the end, the length of the array of primes is returned.
+ */
 
 function countPrimes(n) {
   let primes = [];
